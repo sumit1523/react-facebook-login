@@ -7,7 +7,7 @@ const componentClicked = () => {
 
 const LoginButton = ({facebookResponse}) => (
   <FacebookLoginWithButton
-    appId="1186061154906638"
+    appId="" //FB ID
     // autoLoad
     fields="name,email,picture"
     onClick={componentClicked}
@@ -80,7 +80,7 @@ export default App
 //         <h1>LOGIN WITH FACEBOOK AND GOOGLE</h1>
 
 //         <FacebookLogin
-//           appId="1186061154906638" //APP ID NOT CREATED YET
+//           appId="" //APP ID NOT CREATED YET
 //           fields="name,email,picture"
 //           callback={responseFacebook}
 //         />
@@ -89,7 +89,7 @@ export default App
 
 
 //         <GoogleLogin
-//           clientId="507773353909-vg3h3s31ifehob4300kgf63qa18cij6s.apps.googleusercontent.com" //CLIENTID NOT CREATED YET
+//           clientId="" //CLIENTID NOT CREATED YET
 //           buttonText="LOGIN WITH GOOGLE"
 //           onSuccess={responseGoogle}
 //           onFailure={responseGoogle}
